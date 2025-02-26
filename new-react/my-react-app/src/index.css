@@ -1,0 +1,13 @@
+@font-face{
+  font-family: "instagram sans";
+  src: url("./Instagram\ Sans\ Light.ttf") format("truetype");
+}
+
+*{
+  font-family: "instagram sans";
+}
+
+body{
+  background-color: black;
+  color: white;
+}

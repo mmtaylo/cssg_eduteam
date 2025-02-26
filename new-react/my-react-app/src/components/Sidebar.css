@@ -1,0 +1,20 @@
+.sidebar{
+    left: 0;
+    top: 0;
+    padding: 7% 2%;
+    border-right: 1px solid rgba(255,255,255,0.2);
+    font-size: small;
+    height: 90%;
+    width: 13%;
+    position: fixed;
+}
+
+.heading{
+    padding-bottom: 12%;
+    border-radius: 5px
+}
+
+.heading:hover{
+    background-color: black;
+    opacity: 0.4;
+}

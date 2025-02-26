@@ -1,0 +1,21 @@
+.post{
+    display: flex;
+    width: 255px;
+    height: 245px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.post:hover{
+    background-color: rgb(97, 95, 95);
+    opacity: 0.45;
+    color: white;
+}
+
+.like-comment{
+    color: white;
+}

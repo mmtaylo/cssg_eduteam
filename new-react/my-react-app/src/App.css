@@ -1,0 +1,41 @@
+.profile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 17%;
+    margin-top: 3%;
+}
+
+.sideline{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.posts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+}
+
+
+.button-position{
+    margin-top: 2.7%;
+    margin-left: 2%;
+}
+
+.button{
+    border: grey solid 1px;
+    border-radius: 8px;
+    padding: 4px 10px;
+    width: 100px;
+    opacity: 0.8;
+}
+
+.button:hover{
+    background-color: rgb(97, 95, 95) !important;
+}
