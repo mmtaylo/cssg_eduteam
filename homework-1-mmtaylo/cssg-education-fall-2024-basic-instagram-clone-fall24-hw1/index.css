@@ -1,0 +1,113 @@
+@font-face{
+    font-family: "instagram sans";
+    src: url("./Instagram\ Sans\ Light.ttf") format("truetype");
+}
+
+.vertical_line {
+  border-left: 2px solid gainsboro;
+  height: 30px;
+  align-items: center;
+  display: flex;
+}
+
+/* *{
+    border: solid red;
+} */
+
+.insta_img{
+    margin-top: 10px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.border{
+    padding-left:40px;
+    padding-right: 30px;
+}
+
+.me_padding{
+    padding-left: 60px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.wrapper_two{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+h2{
+    font-family: "instagram sans";
+    font-weight: lighter;
+    font-size: 70;
+    color: rgb(38, 42, 46);
+}
+
+.intro{
+    align-items: center;
+}
+
+.intro_title{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+}
+
+.edit{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+p{
+    font-family:"instagram sans";
+    color: rgb(38, 42, 46);
+    font-size: 15px;
+}
+
+.bio{
+    font-family:"instagram sans";
+    color: rgb(38, 42, 46);
+    font-size: 12px;
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+}
+
+.background{
+    background-color: rgb(250, 248, 248);
+    margin: 0;
+}
+
+.header_color{
+    background-color: white;
+    border-bottom: 1.5px solid gainsboro;
+    border-bottom-width: 100%;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: white;
+    border-top: 1.5px solid gainsboro;
+    border-top-width: 100%;
+}
+
+.footer_img{
+    display: flex;
+    justify-content: center;
+}
